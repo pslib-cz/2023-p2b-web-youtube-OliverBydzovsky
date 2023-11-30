@@ -2,30 +2,56 @@
 
 .main {
    gap: 1em;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
 }
 
 .ytv {
-   margin: 1em
-   max-
+   gap: 1em;
+   flex-direction: column;
+   flex-wrap: wrap;
 }
 .ytv__bottom {
-    
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+   flex-wrap: wrap;
+   gap: 1em;
+   flex-grow: 1
 }
+
 .ytv__left {
-    
+    display: flex;
+    align-items: center;
+    gap: 1em;
 }
+
 .ytv__right {
-    
+   display: flex;
+   gap: 1em;
+   flex-grow: 1;
+   justify-content: end;
+
 }
+
 .profile {
-    
+   display: flex;
+   gap: 1em;
 }
+
 .profile__text {
-    
+    gap: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: column;
 }
+
 .icon {
 
 }
+
 .btn--flex {
     
 }
